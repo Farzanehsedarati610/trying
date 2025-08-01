@@ -18,4 +18,5 @@ async function symbolicPing(endpoint) {
     console.error("Symbolic logic failed:", err);
   }
 }
+stream.write({ name: 'ACK', data: ... });
 
